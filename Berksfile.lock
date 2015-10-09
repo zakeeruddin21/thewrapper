@@ -1,0 +1,11 @@
+DEPENDENCIES
+  lwrpsample
+    path: ../lwrpsample
+  thewrapper
+    path: .
+    metadata: true
+
+GRAPH
+  lwrpsample (0.1.0)
+  thewrapper (0.1.0)
+    lwrpsample (>= 0.1.0)
