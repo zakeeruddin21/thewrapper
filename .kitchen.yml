@@ -1,0 +1,21 @@
+---
+driver:
+  name: vagrant
+
+provisioner:
+  name: chef_solo
+
+platforms:
+  - name: ubuntu-14.04
+
+suites:
+  - name: default
+    run_list: 
+      - recipe[thewrapper::default]
+    attributes:
+      lwrpsample:
+        lwrpexample: 'shawarma'
+        lwrp2:  'Biryani'
+        msg: 'Hello I am is zakeeruddin Mohammed'
+        wrapper: 'thewrapper-cookbook'
+
