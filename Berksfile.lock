@@ -1,11 +1,18 @@
 DEPENDENCIES
+  docker
   lwrpsample
     path: ../lwrpsample
   thewrapper
     path: .
     metadata: true
+  yum
 
 GRAPH
+  compat_resource (12.5.9)
+  docker (2.0.3)
+    compat_resource (>= 0.0.0)
   lwrpsample (0.1.0)
   thewrapper (0.1.0)
     lwrpsample (>= 0.1.0)
+    yum (>= 0.0.0)
+  yum (3.8.1)

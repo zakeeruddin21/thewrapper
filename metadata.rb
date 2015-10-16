@@ -7,3 +7,4 @@ long_description 'Installs/Configures thewrapper'
 version          '0.1.0'
 
 depends 'lwrpsample', '>= 0.1.0'
+depends 'yum'

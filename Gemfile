@@ -15,5 +15,6 @@ gem 'berkshelf'
 # end
 
 gem "test-kitchen"
-gem "kitchen-vagrant"
+#gem "kitchen-vagrant"
 gem 'chef-rewind', '~> 0.0.9'
+gem 'kitchen-docker'
